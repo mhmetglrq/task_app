@@ -1,6 +1,6 @@
 //
-//  TodoAppApp.swift
-//  TodoApp
+//  TaskAppApp.swift
+//  TaskApp
 //
 //  Created by Mehmet Güler on 22.11.2025.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TodoAppApp: App {
+struct TaskAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

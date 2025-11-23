@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1E1555882ED2574900867168 /* TodoApp */ = {
+		1E1555882ED2574900867168 /* TaskApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoApp;
+			path = TaskApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		1E15557D2ED2574900867168 = {
 			isa = PBXGroup;
 			children = (
-				1E1555882ED2574900867168 /* TodoApp */,
+				1E1555882ED2574900867168 /* TaskApp */,
 				1E1555872ED2574900867168 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1E1555882ED2574900867168 /* TodoApp */,
+				1E1555882ED2574900867168 /* TaskApp */,
 			);
 			name = TodoApp;
 			packageProductDependencies = (
