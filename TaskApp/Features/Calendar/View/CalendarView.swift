@@ -13,7 +13,7 @@ struct CalendarView: View {
         NavigationStack {
             VStack {
                 CalendarMonthView()
-                TaskVerticalList(
+                DailyTaskVerticalList(
                     tasks: TaskModel.sampleList, title: "Today"
                 )
             }

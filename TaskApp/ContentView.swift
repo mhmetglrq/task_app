@@ -14,13 +14,13 @@ struct ContentView: View {
                 Text("Ana Sayfa")
             }
             Tab(Constants.todoString,systemImage: Constants.todoIconString){
-                TodosView()
+                TaskView()
+            }
+            Tab(Constants.calendarString,systemImage: Constants.calendarIconString){
+                CalendarView()
             }
             Tab(Constants.todoString,systemImage: Constants.todoIconString){
-                TodosView()
-            }
-            Tab(Constants.todoString,systemImage: Constants.todoIconString){
-                TodosView()
+                Text("Tab 4")   
             }
         }
         

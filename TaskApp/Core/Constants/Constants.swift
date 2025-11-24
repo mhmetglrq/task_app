@@ -16,5 +16,4 @@ struct Constants {
     static let todoIconString = "list.bullet"
     static let homeIconString = "house.fill"
     static let calendarIconString = "calendar"
-    
 }

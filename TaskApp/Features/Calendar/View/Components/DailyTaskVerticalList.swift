@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct TaskVerticalList: View {
+struct DailyTaskVerticalList: View {
     let tasks: [TaskModel]
     let title: String
     var body: some View {
         VStack (alignment: .leading ){
             Text(title)
-                .font(Font.largeTitle.bold())
+                .font(.title2)
+                .bold()
                 .accessibilityLabel(Text("\(tasks.count) task(s)"))
             ForEach(tasks, id: \.self) { task in       HStack (spacing: 10) {
                     Image(systemName: "clock")
@@ -40,5 +41,5 @@ struct TaskVerticalList: View {
 }
 
 #Preview {
-    TaskVerticalList(tasks: TaskModel.sampleList, title: "Today")
+    DailyTaskVerticalList(tasks: TaskModel.sampleList, title: "Today")
 }
