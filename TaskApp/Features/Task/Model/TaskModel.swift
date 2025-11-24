@@ -14,6 +14,13 @@ struct TaskModel: Identifiable , Hashable{
     var createdAt: Date
     var updatedAt: Date?
     
+    var formattedDate : String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .none
+        return dateFormatter.string(from: createdAt)
+    }
+    
     
     static var sampleList = [
         TaskModel(id: 1, title: "Buy groceries", isCompleted: false, createdAt: Date(), updatedAt: nil),
