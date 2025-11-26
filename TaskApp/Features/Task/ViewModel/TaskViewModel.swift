@@ -9,6 +9,8 @@ import Foundation
 import Combine
 
 class TaskViewModel: ObservableObject {
-    @Published var tasks : [TaskModel] = TaskModel.sampleList
+    @Published var tasks : [TaskModel] = []
+    
+    
     
 }
